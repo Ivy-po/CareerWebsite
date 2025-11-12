@@ -3,3 +3,19 @@ html {
   width: 100%;
 }
 
+body{
+ background-color:black;
+ color:hotpink;
+}
+
+hr{
+  border: 0;       /* remove default border */
+  height: 5px;        /* thickness of the line */
+  background-color:hotpink; /* color of the line */
+  margin: 20px;
+}
+
+.col-sm-3{
+  padding-top: 25px;
+
+}
