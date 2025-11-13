@@ -3,19 +3,34 @@ html {
   width: 100%;
 }
 
-body{
- background-color:black;
- color:hotpink;
+body {
+  background-color: black;
+  color: hotpink;
 }
 
-hr{
-  border: 0;       /* remove default border */
-  height: 5px;        /* thickness of the line */
-  background-color:hotpink; /* color of the line */
+hr {
+  border: 0;
+  /* remove default border */
+  height: 5px;
+  /* thickness of the line */
+  background-color: hotpink;
+  /* color of the line */
   margin: 20px;
 }
 
-.col-sm-3{
+.col-sm-3 {
   padding-top: 25px;
+}
 
+th{
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+
+  padding-top: 10px;
 }
