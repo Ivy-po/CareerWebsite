@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  background-color: black;
-  color: hotpink;
+  background-color: #001524;
+  color:#F3E9DC;
 }
 
 hr {
@@ -13,24 +13,31 @@ hr {
   /* remove default border */
   height: 5px;
   /* thickness of the line */
-  background-color: hotpink;
+  background-color:#F3E9DC;
   /* color of the line */
   margin: 20px;
 }
 
 .col-sm-3 {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
-th{
+th {
   padding: 10px;
 }
 
-h2 {
+h2, h4 {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-weight: 10px;
   font-style: normal;
 
   padding-top: 10px;
+}
+
+
+p, li{
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
